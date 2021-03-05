@@ -137,13 +137,6 @@ void graph<T>::init_AM_for_FW()
 	}
 }
 
-template<>
-graph<long long>::graph(int nodes)
-{
-	N = nodes;
-	INF = 1000000000000;
-}
-
 /*
  * Add edge to edge list. Does not check for potential multi-edges.
  */
